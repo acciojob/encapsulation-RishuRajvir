@@ -7,18 +7,11 @@ public class RWOnly {
 //        this.roll = roll;
 //        this.name = name;
 //    }
-    public void setroll(int roll){
-        if(roll<0)
-            return;
-        this.roll = roll;
+    public void setter(String name){
+       this.name = name;
     }
-    public int getroll(){
-        return this.roll;
-    }
-    public void setname(String name){
-        this.name = name;
-    }
-    public String getname(){
+   
+    public String getter(){
         return this.name;
     }
 }
