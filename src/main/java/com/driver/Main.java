@@ -5,6 +5,6 @@ public class Main {
             RWOnly r = new RWOnly();
             r.setter("Rishu Raj");
             // r.g(23);
-        System.out.println(r.getname());
+        System.out.println(r.getter());
     }
 }
